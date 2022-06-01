@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="http://127.0.0.1:5500/css/style.css">
-    <script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://rafaelgoulartb.github.io/html-website/css/style.css">
+  <script>
       // window.onload = () => {
       //   const form = document.getElementById('dados-cliente');
       //   form.addEventListener('submit', (e) => {
@@ -20,9 +21,9 @@
       //     });
       //   })
       // }
-    </script>
-    <style>
-      /* #nuvidio-widget-button {
+  </script>
+  <style>
+    /* #nuvidio-widget-button {
         background-color: bisque;
         color: black;
         padding: 20px 50px;
@@ -33,139 +34,145 @@
         right: 100px;
         background-color: brown;
       } */
-    </style>
-    <title>NuVidio Widget</title>
-  </head>
-  <body>
-    <div id="nuvidio-widget">
-      <div id="nuvidio-widget-container"></div>
+  </style>
+  <title>NuVidio Widget</title>
+</head>
+
+<body>
+  <div id="nuvidio-widget">
+    <div id="nuvidio-widget-container"></div>
+  </div>
+
+  <header>
+
+    <!-- our main logo -->
+    <a id="logo" href="index.html">
+      <img src="https://rafaelgoulartb.github.io/html-website/img/avatar.jpeg" alt="Logo">
+      <span>My Website</span>
+    </a>
+
+    <!-- main navigation links -->
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- the content -->
+  <main>
+
+    <!-- hero content -->
+    <div class="hero">
+      <!-- content for the hero -->
+      <div class="hero-content">
+        <h1 class="hero-title">Here is Title</h1>
+        <p>The best and most comprehensive website ever.</p>
+
+        <a href="#">Learn More</a>
+        <a href="#">Sign Up</a>
+      </div>
     </div>
 
-    <header>
-    
-      <!-- our main logo -->
-      <a id="logo" href="index.html">
-        <img src="http://127.0.0.1:5500/img/avatar.jpeg" alt="Logo">
-        <span>My Website</span>
-      </a>
-    
-      <!-- main navigation links -->
-      <nav>
-        <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Sign Up</a></li>
-        </ul>
-      </nav>
-    
-    </header>
-    
-    <!-- the content -->
-    <main>
-    
-      <!-- hero content -->
-      <div class="hero">
-        <!-- content for the hero -->
-        <div class="hero-content">
-          <h1 class="hero-title">Here is Title</h1>
-          <p>The best and most comprehensive website ever.</p>
-    
-          <a href="#">Learn More</a>
-          <a href="#">Sign Up</a>
-        </div>
-      </div>
-    
-      <!-- features section -->
-      <div class="site-section">
-        <div class="site-section-inside">
-    
-          <div class="section-header">
-            <h2>Key Features</h2>
-          </div>
-    
-          <div class="feature-box">
-            <img src="http://127.0.0.1:5500/img/like.png" alt="Easy to Use">
-            <h5>Easy to Use</h5>
-            <p>Just think of how easy this is to use. Toddlers can do it. So can you!</p>
-          </div>
-    
-          <div class="feature-box">
-            <img src="http://127.0.0.1:5500/img/faces.png" alt="Fun to Use">
-            <h5>Fun to Use</h5>
-            <p>Just think of how easy this is to use. Toddlers can do it. So can you!</p>
-          </div>
-    
-          <div class="feature-box">
-            <img src="http://127.0.0.1:5500/img/heart.png" alt="Fun to Use">
-            <h5>You'll Love It</h5>
-            <p>Just think of how easy this is to use. Toddlers can do it. So can you!</p>
-          </div>
-    
-        </div>
-      </div>
-    
-      <!-- testimonials section -->
-      <div class="site-section site-section-secondary">
-        <div class="site-section-inside">
-    
-          <div class="section-header">
-            <h2>What the people say</h2>
-          </div>
-    
-          <div class="testimonial-box">
-            <div class="testimonial-content">
-              Their service is by far the most influential I've ever seen.
-            </div>
-            <div class="testimonial-author">
-              <img src="http://127.0.0.1:5500/img/david.jpg" alt="David East">
-              <h5>David East</h5>
-              <span>King of Firebase</span>
-            </div>
-          </div>
-    
-          <div class="testimonial-box">
-            <div class="testimonial-content">
-              Their service is by far the most influential I've ever seen.
-            </div>
-            <div class="testimonial-author">
-              <img src="http://127.0.0.1:5500/img/holly.jpg" alt="Holly Lloyd">
-              <h5>Holly Lloyd</h5>
-              <span>Queen of Scotch</span>
-            </div>
-          </div>
-    
-          <div class="testimonial-box">
-            <div class="testimonial-content">
-              Their service is by far the most influential I've ever seen.
-            </div>
-            <div class="testimonial-author">
-              <img src="http://127.0.0.1:5500/img/brad.jpg" alt="Brad Green">
-              <h5>Brad Green</h5>
-              <span>King of Angular</span>
-            </div>
-          </div>
-    
-        </div>
-      </div>
-    
-    </main>
-    
-    <!-- the footer -->
-    <footer>
-      <img src="http://127.0.0.1:5500/img/avatar.jpeg" alt="Footer Logo">
-      <span>My Website<br>Copyright &copy; 2016-3010 </span>
-    </footer>
+    <!-- features section -->
+    <div class="site-section">
+      <div class="site-section-inside">
 
-    <button id="nuvidio-widget-button">Botao2</button>
+        <div class="section-header">
+          <h2>Key Features</h2>
+        </div>
 
-    <!-- Dependencies -->
-    <% if (webpackConfig.mode == 'production') { %>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js" integrity="sha256-yUhvEmYVhZ/GGshIQKArLvySDSh6cdmdcIx0spR3UP4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js" integrity="sha256-vFt3l+illeNlwThbDUdoPTqF81M8WNSZZZt3HEjsbSU=" crossorigin="anonymous"></script>
+        <div class="feature-box">
+          <img src="https://rafaelgoulartb.github.io/html-website/img/like.png" alt="Easy to Use">
+          <h5>Easy to Use</h5>
+          <p>Just think of how easy this is to use. Toddlers can do it. So can you!</p>
+        </div>
+
+        <div class="feature-box">
+          <img src="https://rafaelgoulartb.github.io/html-website/img/faces.png" alt="Fun to Use">
+          <h5>Fun to Use</h5>
+          <p>Just think of how easy this is to use. Toddlers can do it. So can you!</p>
+        </div>
+
+        <div class="feature-box">
+          <img src="https://rafaelgoulartb.github.io/html-website/img/heart.png" alt="Fun to Use">
+          <h5>You'll Love It</h5>
+          <p>Just think of how easy this is to use. Toddlers can do it. So can you!</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- testimonials section -->
+    <div class="site-section site-section-secondary">
+      <div class="site-section-inside">
+
+        <div class="section-header">
+          <h2>What the people say</h2>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial-content">
+            Their service is by far the most influential I've ever seen.
+          </div>
+          <div class="testimonial-author">
+            <img src="https://rafaelgoulartb.github.io/html-website/img/david.jpg" alt="David East">
+            <h5>David East</h5>
+            <span>King of Firebase</span>
+          </div>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial-content">
+            Their service is by far the most influential I've ever seen.
+          </div>
+          <div class="testimonial-author">
+            <img src="https://rafaelgoulartb.github.io/html-website/img/holly.jpg" alt="Holly Lloyd">
+            <h5>Holly Lloyd</h5>
+            <span>Queen of Scotch</span>
+          </div>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial-content">
+            Their service is by far the most influential I've ever seen.
+          </div>
+          <div class="testimonial-author">
+            <img src="https://rafaelgoulartb.github.io/html-website/img/brad.jpg" alt="Brad Green">
+            <h5>Brad Green</h5>
+            <span>King of Angular</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- the footer -->
+  <footer>
+    <img src="https://rafaelgoulartb.github.io/html-website/img/avatar.jpeg" alt="Footer Logo">
+    <span>My Website<br>Copyright &copy; 2016-3010 </span>
+  </footer>
+
+  <button id="nuvidio-widget-button">Botao2</button>
+
+  <!-- Dependencies -->
+  <% if (webpackConfig.mode=='production' ) { %>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js"
+      integrity="sha256-yUhvEmYVhZ/GGshIQKArLvySDSh6cdmdcIx0spR3UP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js"
+      integrity="sha256-vFt3l+illeNlwThbDUdoPTqF81M8WNSZZZt3HEjsbSU=" crossorigin="anonymous"></script>
     <% } else { %>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.development.js" integrity="sha256-4gJGEx/zXAxofkLPGXiU2IJHqSOmYV33Ru0zw0TeJ30=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.development.min.js" integrity="sha256-9xBa2Hcuh2S3iew36CzJawq7T9iviOAcAVz3bw8h3Lo=" crossorigin="anonymous"></script>
-    <% } %>
-  </body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.development.js"
+        integrity="sha256-4gJGEx/zXAxofkLPGXiU2IJHqSOmYV33Ru0zw0TeJ30=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.development.min.js"
+        integrity="sha256-9xBa2Hcuh2S3iew36CzJawq7T9iviOAcAVz3bw8h3Lo=" crossorigin="anonymous"></script>
+      <% } %>
+</body>
+
 </html>
